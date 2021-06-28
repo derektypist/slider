@@ -5,6 +5,10 @@ body {
     color: hsl(209,61%,16%);
 }
 
+img:not(.person-img) {
+    width: 100%;
+}
+
 img {
     display: block;
 }
@@ -14,4 +18,30 @@ h4 {
     line-height: 1.25;
     font-size: 0.875rem;
     margin-bottom: 0.75rem;
+}
+
+/* Slider */
+
+.slider-container {
+    border: 5px solid #49a6e9;
+    width: 80vw;
+    margin: 0 auto;
+    height: 40vh;
+    max-width: 80rem;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: hsl(205,90%,88%);
+    color: white;
+    display: grid;
+    place-items: center;
+    transition: all 0.35s ease-in-out;
+    text-align: center;
 }
