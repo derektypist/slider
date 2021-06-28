@@ -39,7 +39,7 @@ h4 {
     width: 100%;
     height: 100%;
     background: hsl(205,90%,88%);
-    color: white;
+    color: black;
     display: grid;
     place-items: center;
     transition: all 0.35s ease-in-out;
@@ -71,7 +71,7 @@ h4 {
 }
 
 .slide:nth-child(3) {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/img-2.JPG") center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("images/img-2.JPG") center/cover no-repeat;
 }
 
 .btn-container {
