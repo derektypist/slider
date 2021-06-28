@@ -1,0 +1,17 @@
+/* Global Styles */
+body {
+    font-family: "Roboto",Arial,Verdana,sans-serif;
+    background: hsl(210,36%,96%);
+    color: hsl(209,61%,16%);
+}
+
+img {
+    display: block;
+}
+
+h4 {
+    text-transform: capitalize;
+    line-height: 1.25;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
