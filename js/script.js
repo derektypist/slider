@@ -10,6 +10,7 @@ slides.forEach(function(slide,index) {
 
 let counter = 0;
 
+// Set Up Event Listeners
 nextBtn.addEventListener('click',function() {
     counter++;
     carousel();
