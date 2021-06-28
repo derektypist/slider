@@ -82,6 +82,7 @@ h4 {
 
 .prevBtn, .nextBtn {
     background: transparent;
+    border-color: transparent;
     font-family: inherit;
     font-size: 1.75rem;
     cursor: pointer;
@@ -94,5 +95,24 @@ h4 {
 
 .prevBtn:hover, .nextBtn:hover {
     color: hsl(209,34%,30%);
+}
+
+/* Media Queries for Slider */
+@media screen and (min-width: 576px) {
+    .slider-container {
+        height: 45vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slider-container {
+        height: 55vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .slider-container {
+        height: 65vh;
+    }
 }
 
