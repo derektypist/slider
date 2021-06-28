@@ -71,7 +71,7 @@ h4 {
 }
 
 .slide:nth-child(3) {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)) url("../../img-2.JPG") center/cover no-repeat;
+    background: no-repeat center/cover url("../images/img-2.JPG");
 }
 
 .btn-container {
